@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AppLogin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="please_wait">Cargando ...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_user">Name user</string>
+    <string name="title">title</string>
+    <string name="txt_login">Iniciar sesión</string>
+    <string name="txt_registres">Registrarse</string>
+    <string name="edt_name_user">Nombre de usuario</string>
+    <string name="edt_password">Contraseña</string>
+    <string name="name_example">Name example</string>
+    <string name="description">description</string>
+    <string name="img_item_beerr">imgItemBeer</string>
+    <string name="ver_detalle">Ver detalle</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/beerFragment">
+    <fragment
+        android:id="@+id/beerFragment"
+        android:label="fragment_beer"
+        android:name="com.bimbo.net.applogin.ui.beer.list.BeerFragment"
+        tools:layout="@layout/fragment_beer">
+        <action
+            android:id="@+id/action_beerFragment_to_beerDetailFragment"
+            app:destination="@id/beerDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/beerDetailFragment"
+        android:label="fragment_beer_detail"
+        android:name="com.bimbo.net.applogin.ui.beer.detail.BeerDetailFragment"
+        tools:layout="@layout/fragment_beer_detail" >
+
+    </fragment>
+</navigation>
